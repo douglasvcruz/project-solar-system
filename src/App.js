@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
 import Missions from './components/Missions';
+import MissionCard from './components/MissionCard';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <Header />
         <SolarSystem />
         <Missions />
+        <MissionCard name="test" year={ 5 } country="test" destination="test" />
       </div>
     );
   }
